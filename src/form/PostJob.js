@@ -327,7 +327,11 @@ function PostJob() {
                     className="form-control "
                     id="inputEmail4"
                   />{" "}
-                  <span className="fs-6 text-light">
+                  <span
+                    className="fs-6 "
+                    style={{ zoom: 0.8, color: "#888888" }}
+                   
+                  >
                     Candidates will not be able to apply after this date
                     01/02/2022.
                   </span>
@@ -335,7 +339,7 @@ function PostJob() {
                 <div className="col-md-6">
                   <label htmlFor="inputEmail4" className="form-label">
                     Job Expires on
-                  </label> 
+                  </label>
                   <input
                     {...register("joiningdate")}
                     type="date"
